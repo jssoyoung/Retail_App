@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --main-bg-color: #f9ecec; 
+    --color1: #f0d9da; 
+    --color2: #c8d9eb; 
+    --color3: #ecf2f9; 
+  }
+  
+  body {
+    background-color: var(--main-bg-color);
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  }
+
+  .logo {
+    width: 75px;
+    height: 75px;
+    padding: 10px 20px;
+  }
+
+  .form {
+    width: 60vw;
+    height: 70vh;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    text-align: center;  
+    font-size: 10px;
+  }
+  
+  .form input {
+    margin: 0 15px;
+    border-radius: 4px;
+    padding: 3px;
+    width: 300px;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid white;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 18px;
+    color: var(--background-color1);
+  }
+  
+  textarea {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  input, textarea {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    border: 1px solid black;
+  }
+  
+  button {
+    background-color: var(--background-color2); 
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: var(--background-color1);
+    color: var(--background-color3);
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li:hover {
+    background-color: var(--background-color1);
+    color: var(--background-color3);  
+    border-radius: 4px;
+  }
+  
+  li {
+    display: inline;
+    padding: 10px;
+    margin-right: 20px;
+    color: var(--background-color1);
+  }
